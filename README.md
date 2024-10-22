@@ -14,3 +14,5 @@ In a language of your choice, write a solution for the game that satisfies the f
 
 
 This challenge (deliberately) does not give any guidance about ranges, input validation, presentation etc., so you are also required to explain any assumptions that you have made. This can be done using comments in the code or in a readme file, or both.
+
+First test of code. The guessing part of the code works but when I get a 'Game Over' message the game doesn't reset

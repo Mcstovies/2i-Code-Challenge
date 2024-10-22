@@ -65,12 +65,16 @@
             guessInput.disable = true; // Disables the input field
             submitButton.disabled = true; // Disable the submit button
 
-            
+            // Create a new button to reset the game
+            const resetButton = document.createElement('button');
+            resetButton.textContent = 'Play again'; // Set the button text
+            resetButton.onclick = () => location.reload(); // When clicked, reload the page to start a new game
+            document.body.appendChild(resetButton); // Add the reset button to the page
         }
 
-
-
-
+        
+        // Event listener for the 'Submit Guess' button
+        submitButton.addEventListener('click', checkGuess);
     </script>
 
 </body>
