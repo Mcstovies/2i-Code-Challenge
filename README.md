@@ -18,3 +18,5 @@ This challenge (deliberately) does not give any guidance about ranges, input val
 First test of code. The guessing part of the code works but when I get a 'Game Over' message the game doesn't reset
 
 Figured out problem "submitButton.disable = true" was written as "submitButton.disabled = true"
+
+Explanation
