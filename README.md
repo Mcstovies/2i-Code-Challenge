@@ -28,13 +28,13 @@ This is a simple number guessing game where the player has to guess a random num
 
 #### Explanation of the code
 
-    HTML Structure
+HTML Structure
 
 <h1>: Display the game title.
 <input> fields: Allows the user to enter a guess and submit it.
 <div id="feedback">: Displays feedback messages like whether the guess was correct or wrong.
 
-    JavaScirpt Logic
+JavaScirpt Logic
 
 randomNumber: Generates a random number between 1 and 100 that the user has to guess.
 
@@ -53,9 +53,9 @@ submitButton.addEventListener('click', checkGuess): Sets up an event listener to
 
 #### Known Issues
 
-    Issue: Initially, the input field and submit button were not disabling when the game ended.
+Issue: Initially, the input field and submit button were not disabling when the game ended.
 
-    Solution: The issue was caused by using disable instead of disabled in the code. Changing it to disabled fixed the problem, allowing the game to properly handle game over and create the reset button.
+ Solution: The issue was caused by using disable instead of disabled in the code. Changing it to disabled fixed the problem, allowing the game to properly handle game over and create the reset button.
 
 
 
