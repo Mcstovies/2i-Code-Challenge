@@ -30,9 +30,9 @@ This is a simple number guessing game where the player has to guess a random num
 
 HTML Structure
 
-<h1>: Display the game title.
-<input> fields: Allows the user to enter a guess and submit it.
-<div id="feedback">: Displays feedback messages like whether the guess was correct or wrong.
+h1: Display the game title.
+input fields: Allows the user to enter a guess and submit it.
+div id="feedback": Displays feedback messages like whether the guess was correct or wrong.
 
 JavaScirpt Logic
 
