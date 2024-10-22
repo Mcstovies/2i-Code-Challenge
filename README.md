@@ -51,11 +51,15 @@ submitButton.addEventListener('click', checkGuess): Sets up an event listener to
 
 
 
-#### Known Issues
+## Known Issues
 
 Issue: Initially, the input field and submit button were not disabling when the game ended.
 
  Solution: The issue was caused by using disable instead of disabled in the code. Changing it to disabled fixed the problem, allowing the game to properly handle game over and create the reset button.
+
+ ## Sources used
+
+ https://developer.mozilla.org/en-US/
 
 
 
