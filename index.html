@@ -52,6 +52,12 @@
             else if (attempts >= maxAttempts) {
                 showMessage(`Game Over! The number was ${randomNumber}.`, 'lose'); // Show game over screen
             }
+
+            // If the guess is wrong, show attempts and give hint
+            else {
+                const hint = userGuess < randomNumber ? 'Too low!' : 'Too high!'; // Comparing user input to the random number
+                showMessage(`Try again! ${hint} (${maxAttempts - attempts} attempts left)`, 'hint'); // Gives a hint and shows remaining attempts
+            }
         }
 
 
