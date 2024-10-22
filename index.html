@@ -31,7 +31,13 @@
         const submitButton = document.getElementById('submitGuess')
         const feedback = document.getElementById('feedback');
 
-        
+        // Function to show messages (feedback based on answer) to the user
+        function showMessage(message, type = '') {
+            feedback.textContent  = message; // Set the text content of the feedback element
+            feedback.className = `message ${type}` // Add a class based on the type (e.g. 'win', 'lose', or 'hint')
+        }
+
+
     </script>
 
 </body>
