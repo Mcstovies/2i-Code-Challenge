@@ -47,6 +47,11 @@
                 showMessage(`Congratulations! You guessed it in ${attempts} attempts!`, 'win'); // Shows success message
                 gameOver(); // Ends the game
             }
+
+            // Check if the user has used up all their atempts
+            else if (attempts >= maxAttempts) {
+                showMessage(`Game Over! The number was ${randomNumber}.`, 'lose'); // Show game over screen
+            }
         }
 
 
