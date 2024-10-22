@@ -42,7 +42,11 @@
             const userGuess = Number(guessInput.value); // Get the user's guess from the input field and convert it to a number
             attempts++; // Increment the attempt count each time the user guesses
 
-            
+            // Check if the guess is correct
+            if (userGuess === randomNumber) {
+                showMessage(`Congratulations! You guessed it in ${attempts} attempts!`, 'win'); // Shows success message
+                gameOver(); // Ends the game
+            }
         }
 
 
